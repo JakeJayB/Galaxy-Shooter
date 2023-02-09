@@ -10,9 +10,10 @@ public class Laser : MonoBehaviour
 
     void Update()
     {
+        // laser always will shoot up
        transform.Translate(Vector3.up * _LaserSpeed * Time.deltaTime);
 
-
+        // if y-axis of lazer reaches beyond 8, destory it
         if (transform.position.y >= 8f)
         {
             if (transform.parent != null)
