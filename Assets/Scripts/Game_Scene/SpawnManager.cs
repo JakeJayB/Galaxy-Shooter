@@ -1,4 +1,14 @@
-﻿using System.Collections;
+﻿/***
+*   SpawnManager deals with the instantiation (spawning) of Powerups
+*   and Enemies. Spawntime for both objects varies based on current 
+*   active level (chapter 1 or 2) and the sequence within the
+*                 chapter (Sequence 1, 2, or 3).
+* 
+*    Comments were made in a way for someone who doesn't have 
+*              experience in Unity Game Engine.
+* 
+**/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;

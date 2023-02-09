@@ -1,4 +1,14 @@
-﻿using System.Collections;
+﻿/***
+*   Player Script is specifically for the player gameobject in gamescene.
+*   Player holds the functionality of shooting, moving, and keeps track
+*   of score and current lives
+* 
+*    Comments were made in a way for someone who doesn't have 
+*              experience in Unity Game Engine.
+* 
+**/
+
+using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
